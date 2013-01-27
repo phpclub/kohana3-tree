@@ -5,8 +5,8 @@ CREATE TABLE `ns_tree` (
   `lft` int(11) unsigned NOT NULL,
   `rgt` int(11) unsigned NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `lft_index` (`lft`),
-  UNIQUE KEY `rgt_index` (`rgt`)
+  KEY `lft_index` (`lft`),
+  KEY `rgt_index` (`rgt`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
