@@ -4,7 +4,7 @@ Tree module for Kohana 3. Nested Set(server side) and jstree(jquery plugin)(clie
 
 Implemets add, remove, move, edit actions for tree
 
-You can see demo here - http://s1uggard.hmsite.info/tree
+You can see demo here - http://109.120.169.124:777/tree
 
 
 
